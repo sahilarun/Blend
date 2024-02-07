@@ -3,7 +3,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { url "https://artifactory.img.ly/artifactory/imgly" }
+        maven { url 'https://artifactory.img.ly/artifactory/imgly' }
     }
 
     dependencies {
@@ -11,7 +11,7 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.google.gms:google-services:4.3.15'
         classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.5'
-        classpath 'ly.img.android.sdk:plugin:10.4.1'
+        classpath 'ly.img.android.sdk:plugin:10.7.3'
     }
 }
 
@@ -19,8 +19,10 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://artifactory.img.ly/artifactory/imgly' }
     }
 }
+
 
 rootProject.buildDir = '../build'
 subprojects {
