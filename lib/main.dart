@@ -155,22 +155,22 @@ Future<void> main() async {
     performActionOnCallNotificationBanner(data, true, true);
   } else {
     runApp(Phoenix(
-        child: const SocialifiedApp(
+        child: const BlendApp(
       startScreen: SplashScreen(),
     )));
   }
 }
 
-class SocialifiedApp extends StatefulWidget {
+class BlendApp extends StatefulWidget {
   final Widget startScreen;
 
-  const SocialifiedApp({Key? key, required this.startScreen}) : super(key: key);
+  const BlendApp({Key? key, required this.startScreen}) : super(key: key);
 
   @override
-  State<SocialifiedApp> createState() => _SocialifiedAppState();
+  State<BlendApp> createState() => _BlendAppState();
 }
 
-class _SocialifiedAppState extends State<SocialifiedApp> {
+class _BlendAppState extends State<BlendApp> {
   @override
   void initState() {
     super.initState();
