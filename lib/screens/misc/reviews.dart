@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foap/controllers/misc/rating_controller.dart';
-import 'package:foap/helper/extension.dart';
+import 'package:sahil/controllers/misc/rating_controller.dart';
+import 'package:sahil/helper/extension.dart';
 import 'package:get/get.dart';
 import '../../components/review_tile.dart';
 import '../../helper/common_components.dart';
